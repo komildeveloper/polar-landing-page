@@ -59,5 +59,127 @@
 body {
   margin: 0;
   padding: 0;
+  font-weight: normal;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* HEADER */
+.site-header {
+  background-color: rgb(242, 206, 218, 0.3);
+  /* height: 100vh; */
+}
+
+.container {
+  width: 1125px;
+  margin: 0 auto;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 126px;
+}
+
+.site-nav-items {
+  list-style-type: none;
+}
+
+.site-nav-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(21, 1, 1, 0.6);
+  text-decoration: none;
+  margin-left: 40px;
+  text-transform: capitalize;
+}
+.site-nav-link:hover {
+  font-size: 14px;
+  line-height: 18px;
+  color: #d23166;
+}
+
+.site-nav-link:active {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #d23166;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #d23166;
+}
+
+.same-btn {
+  background-color: #d23166;
+  border-radius: 5px;
+  font-family: Hind Madurai;
+  font-weight: bold;
+  line-height: 22px;
+  color: #fafafa;
+  text-decoration: none;
+  padding: 14px 50px;
+  text-transform: capitalize;
+}
+
+.hero {
+  padding-bottom: 65px;
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-left-paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #0f0101;
+  margin-bottom: 6px;
+}
+
+.hero-left-heading {
+  font-family: Fredoka One;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0f0101e6;
+  margin-bottom: 35px;
+}
+
+.hero-left-pink-text {
+  color: #d23166;
+}
+
+.hero-left-text {
+  font-family: Hind Madurai;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f010199;
+  margin-bottom: 63px;
+}
+
+.hero-right-side {
+  width: 597px;
+  height: 597px;
+  background-position: top 186px left -155px, top -33px left -103px,
+    top 220px left 2px, bottom -2px left 99px;
+  background-image: url('../img/milk.png'), url('../img/bg-image.png'),
+    url('../img/ellipse.png'), url('../img/shadow.png');
+  background-repeat: no-repeat;
+  background-size: 651.86px, 597px, 365px 353px, 173px 15px;
 }
