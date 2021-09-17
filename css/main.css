@@ -72,6 +72,10 @@ p {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* HEADER */
 .site-header {
   background-color: rgb(242, 206, 218, 0.3);
@@ -88,10 +92,6 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 126px;
-}
-
-.site-nav-items {
-  list-style-type: none;
 }
 
 .site-nav-link {
@@ -182,4 +182,39 @@ p {
     url('../img/ellipse.png'), url('../img/shadow.png');
   background-repeat: no-repeat;
   background-size: 651.86px, 597px, 365px 353px, 173px 15px;
+}
+
+.site-main {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-list-item {
+  padding: 33px 26px;
+  background: transparent;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  text-align: center;
+}
+
+.main-list-heading {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin: 23px 0 9px;
+}
+
+.main-list-text {
+  font-family: Hind Madurai;
+  font-size: 14px;
+  line-height: 19px;
+  color: #00000099;
 }
