@@ -123,6 +123,7 @@ li {
 }
 
 .same-btn {
+  display: inline-block;
   background-color: #d23166;
   border-radius: 5px;
   font-family: Hind Madurai;
@@ -256,6 +257,7 @@ li {
 }
 
 .same-pink-btn {
+  display: inline-block;
   background-color: #d64374;
   color: #fff;
   text-decoration: none;
@@ -308,4 +310,125 @@ li {
 .product-link-active {
   padding-bottom: 4px;
   border-bottom: 3px solid #d64374;
+}
+
+/* ICE-CREAM */
+.ice-cream {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.ice-cream-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ice-cream-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ice-cream-items:nth-of-type(2n) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.ice-cream-right-side {
+  margin-left: 87px;
+}
+
+.ice-cream-right-side:nth-of-type(2n) {
+  margin-right: 87px;
+}
+
+.ice-cream-heading {
+  font-family: Hind Madurai;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.ice-cream-text {
+  font-family: Roboto;
+  line-height: 24px;
+  color: #000000b3;
+  margin: 11px 0 28px;
+}
+
+.ice-cream-price {
+  font-family: Hind Madurai;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.ice-cream-discount {
+  font-family: Hind Madurai;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000b3;
+}
+
+.ice-cream-same-btn {
+  display: inline-block;
+  background-color: #d23166;
+  font-family: Roboto;
+  border-radius: 5px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fafafa;
+  text-decoration: none;
+  padding: 15px 46px;
+  text-transform: capitalize;
+  color: #fafafa;
+}
+
+.ice-cream-person-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+}
+
+.ice-cream-span {
+  display: block;
+}
+
+.ice-cream-person-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.ice-cream-person-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000b3;
+  text-transform: uppercase;
+  margin: 5px 50px;
+  margin-left: 0;
+}
+
+.ice-cream-quote {
+  line-height: 24px;
+  color: #000000b3;
+}
+
+.ice-cream-person-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ice-cream-person-item:nth-child(2) .ice-cream-person {
+  border-radius: 50%;
 }
