@@ -358,6 +358,46 @@
           </div>
         </div>
       </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact-heading">
+            Have Question in Mind? <br />Let us help you
+          </h2>
+          <form
+            action="https://echo.htmlacademy.ru/"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="form-flex">
+              <input
+                type="tel"
+                class="form-input"
+                name="user_phone"
+                placeholder="Your phone number"
+                required
+              />
+              <select name="user_question" id="question" class="form-select">
+                <option value="" hidden class="form-option">
+                  Question type
+                </option>
+                <option value="ama" class="form-option">Ask Me Anything</option>
+                <option value="ice-cream" class="form-option">
+                  Most Expensive Ice-Cream
+                </option>
+              </select>
+            </div>
+            <div class="form-bottom">
+            <textarea
+              name="user_msg"
+              id="user_msg"
+              placeholder="Enter your question"
+              class="form-msg"
+            ></textarea>
+            <button type="submit" class="form-btn">send</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
