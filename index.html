@@ -15,13 +15,15 @@
       <div class="container">
         <nav class="site-nav">
           <li class="site-nav-items">
-            <img
-              src="./img/polar-logo.png"
-              alt="Polar"
-              class="site-logo"
-              width="79"
-              height="79"
-            />
+            <a href="#" class="site-nav-logo">
+              <img
+                src="./img/polar-logo.png"
+                alt="Polar"
+                class="site-logo"
+                width="79"
+                height="79"
+              />
+            </a>
           </li>
           <li class="site-nav-items">
             <a href="#" class="site-nav-link active">home</a>
@@ -31,7 +33,9 @@
             <a href="#contact-us" class="site-nav-link">contact us</a>
           </li>
           <li class="site-nav-items">
-            <a href="#" class="same-btn">buy now</a>
+            <a href="https://www.amazon.com" class="same-btn" target="blank"
+              >buy now</a
+            >
           </li>
         </nav>
 
@@ -49,7 +53,9 @@
                   that the dog's brought home, yet after one mouthful I've been
                   left eating my thoughts, my words.
                 </p>
-                <a href="#" class="same-btn">buy now</a>
+                <a href="https://www.amazon.com" class="same-btn" target="blank"
+                  >buy now</a
+                >
               </div>
               <div class="hero-right-side"></div>
             </div>
@@ -128,7 +134,12 @@
                 synonymous with burgers in the US.Together with McDonald’s,
                 Burger King has grown to become synonymous.
               </p>
-              <a href="#" class="same-pink-btn">see details</a>
+              <a
+                href="https://www.amazon.com"
+                class="same-pink-btn"
+                target="blank"
+                >see details</a
+              >
             </div>
             <div class="sugar-right-side"></div>
           </div>
@@ -137,7 +148,7 @@
       <section class="product">
         <div class="container">
           <h3 class="product-heading">our product</h3>
-          <ul class="product-list">
+          <ul class="product-list" id="pricing">
             <li class="product-item">
               <a href="#" class="product-link product-link-active">ice cream</a>
             </li>
@@ -159,7 +170,7 @@
           </ul>
         </div>
       </section>
-      <section class="ice-cream">
+      <section class="ice-cream" id="product">
         <div class="container">
           <ul class="ice-cream-list">
             <li class="ice-cream-items">
@@ -180,7 +191,12 @@
                 <p class="ice-cream-price">
                   $19.55 <del class="ice-cream-discount">$22.55</del>
                 </p>
-                <a href="#" class="ice-cream-same-btn">buy now</a>
+                <a
+                  href="https://www.amazon.com"
+                  target="blank"
+                  class="ice-cream-same-btn"
+                  >buy now</a
+                >
               </div>
             </li>
             <li class="ice-cream-items">
@@ -201,7 +217,12 @@
                 <p class="ice-cream-price">
                   $19.55 <del class="ice-cream-discount">$22.55</del>
                 </p>
-                <a href="#" class="ice-cream-same-btn">buy now</a>
+                <a
+                  href="https://www.amazon.com"
+                  target="blank"
+                  class="ice-cream-same-btn"
+                  >buy now</a
+                >
               </div>
             </li>
             <li class="ice-cream-items">
@@ -222,7 +243,12 @@
                 <p class="ice-cream-price">
                   $19.55 <del class="ice-cream-discount">$22.55</del>
                 </p>
-                <a href="#" class="ice-cream-same-btn">buy now</a>
+                <a
+                  href="https://www.amazon.com"
+                  target="blank"
+                  class="ice-cream-same-btn"
+                  >buy now</a
+                >
               </div>
             </li>
             <li class="ice-cream-items">
@@ -296,7 +322,7 @@
           </ul>
         </div>
       </section>
-      <section class="simple">
+      <section class="simple" id="testimonials">
         <div class="container">
           <div class="simple-flex">
             <div class="simple-left-side"></div>
@@ -343,22 +369,34 @@
                 </li>
               </ul>
               <div class="simple-apps">
-                <img
-                  src="./img/google-play.png"
-                  alt="Google Play"
-                  class="simple-app-img"
-                />
-                <img
-                  src="./img/app-store.png"
-                  alt="App Store"
-                  class="simple-app-img"
-                />
+                <a
+                  href="https://play.google.com"
+                  target="blank"
+                  class="simple-app-links"
+                >
+                  <img
+                    src="./img/google-play.png"
+                    alt="Google Play"
+                    class="simple-app-img"
+                  />
+                </a>
+                <a
+                  href="https://www.apple.com/app-store"
+                  target="blank"
+                  class="simple-app-links"
+                >
+                  <img
+                    src="./img/app-store.png"
+                    alt="App Store"
+                    class="simple-app-img"
+                  />
+                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact-us">
         <div class="container">
           <h2 class="contact-heading">
             Have Question in Mind? <br />Let us help you
@@ -387,17 +425,153 @@
               </select>
             </div>
             <div class="form-bottom">
-            <textarea
-              name="user_msg"
-              id="user_msg"
-              placeholder="Enter your question"
-              class="form-msg"
-            ></textarea>
-            <button type="submit" class="form-btn">send</button>
+              <textarea
+                name="user_msg"
+                id="user_msg"
+                placeholder="Enter your question"
+                class="form-msg"
+              ></textarea>
+              <button type="submit" class="form-btn">send</button>
             </div>
           </form>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <a href="#">
+          <img
+            src="./img/polar-logo.png"
+            alt="Footer Logo"
+            class="footer-logo"
+          />
+        </a>
+        <div class="footer-flex">
+          <div class="footer-first-side">
+            <p class="footer-text">
+              Some food has looked so awful that it's looked like something that
+              the dog's brought home.
+            </p>
+            <strong class="footer-strong">Follow Us</strong>
+            <div class="footer-apps">
+              <a
+                href="https://facebook.com"
+                class="footer-app-links"
+                target="blank"
+              >
+                <img
+                  src="./img/facebook.png"
+                  alt="Facebook"
+                  class="footer-images"
+                />
+              </a>
+              <a
+                href="https://twitter.com"
+                class="footer-app-links"
+                target="blank"
+              >
+                <img
+                  src="./img/twitter.png"
+                  alt="Twitter"
+                  class="footer-images"
+                />
+              </a>
+              <a
+                href="https://instagram.com"
+                class="footer-app-links"
+                target="blank"
+              >
+                <img
+                  src="./img/instagram.png"
+                  alt="Instagram"
+                  class="footer-images"
+                />
+              </a>
+              <a
+                href="https://linkedin.com"
+                class="footer-app-links"
+                target="blank"
+              >
+                <img
+                  src="./img/linkedin.png"
+                  alt="Linkedin"
+                  class="footer-images"
+                />
+              </a>
+            </div>
+          </div>
+          <ul class="footer-list-first">
+            <li class="footer-item">
+              <a href="#home" class="footer-link footer-link-active">Home</a>
+            </li>
+            <li class="footer-item">
+              <a href="#product" class="footer-link">Product</a>
+            </li>
+            <li class="footer-item">
+              <a href="#blog" class="footer-link">Blog</a>
+            </li>
+            <li class="footer-item">
+              <a href="#pricing" class="footer-link">Pricing</a>
+            </li>
+            <li class="footer-item">
+              <a href="#testimonials" class="footer-link">Testtimonials</a>
+            </li>
+            <li class="footer-item">
+              <a href="#contact-us" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="footer-list-second">
+            <li class="footer-item">
+              <a href="#" class="footer-link">Delivery Information</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Terms & Condition</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Search Terms</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Order & Return</a>
+            </li>
+          </ul>
+          <div class="footer-last-side">
+            <h4 class="footer-last-heading">Newsletter</h4>
+            <form
+              action="https://echo.htmlacademy.ru"
+              method="POST"
+              class="footer-form"
+            >
+              <input
+                type="text"
+                id="email"
+                name="user_email"
+                class="footer-input"
+                placeholder="Your Email"
+                required
+              />
+              <button type="submit" class="footer-btn">subscribe</button>
+            </form>
+            <div class="footer-last-flex">
+              <img
+                src="./img/paypal.png"
+                alt="PayPal"
+                class="footer-last-images"
+              />
+              <img
+                src="./img/master-card.png"
+                alt="Master Card"
+                class="footer-last-images"
+              />
+              <img src="./img/visa.png" alt="Visa" class="footer-last-images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
